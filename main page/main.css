@@ -68,5 +68,6 @@ nav{
     .links a{
         align-items: center;
         margin-top: 30px;
+        cursor: col-resize;
     }
 } 
