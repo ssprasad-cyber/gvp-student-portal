@@ -49,6 +49,9 @@ nav{
     text-transform: uppercase;
     align-items: center;
 }
+.menu{
+    display: none;
+}
 @media only screen and (max-width:850px){
     nav{
         height: 100vh;
@@ -69,5 +72,11 @@ nav{
         align-items: center;
         margin-top: 30px;
         cursor: col-resize;
+        font-size: medium;
+        font-weight: 700;
+    }
+    .menu{
+        display: block;
+        margin-top: 10px;
     }
 } 
