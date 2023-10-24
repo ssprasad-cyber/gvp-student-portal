@@ -6,6 +6,7 @@ body{
     width: 100%;
 }
 nav{
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
@@ -52,11 +53,13 @@ nav{
 .menu{
     display: none;
 }
+
 @media only screen and (max-width:850px){
-    nav{
+    .nav-li{
         height: 100vh;
     }
     .links{
+        
         font-size: larger;
         position: absolute;
         display: grid;
@@ -65,9 +68,13 @@ nav{
         align-content: center;
         left: 25%;
         bottom: 40%;
-        /* margin-top:50%; */
+        margin-bottom: 900px;
+        background-color: #BF2F31;
         /* margin: 40% 30% 40% 30%; */
     } 
+    .mobile-menu{
+        margin-bottom: 0%;
+    }
     .links a{
         align-items: center;
         margin-top: 30px;
@@ -79,4 +86,5 @@ nav{
         display: block;
         margin-top: 10px;
     }
+   
 } 
